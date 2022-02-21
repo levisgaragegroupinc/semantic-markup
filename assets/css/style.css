@@ -1,20 +1,26 @@
+/*Universal selectors*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Individual selectors*/
 body {
     background-color: #d9dcd6;
 }
 
+
+/*Font styling*/
 header, footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-aside, nav, .services {
+aside, nav, section {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/*Primary content styling*/
 
 header {
     padding: 20px;
@@ -27,6 +33,7 @@ header h1 {
     font-size: 48px;
 }
 
+/*Styles the letters "seo" in the company name Horiseon*/
 header h1 span {
     color: #d9dcd6;
 }
@@ -38,6 +45,7 @@ header nav {
     font-size: 20px;
 }
 
+/*Removes list type styling from header ul li navigation elements*/
 header nav ul {
     list-style-type: none;
 }
@@ -65,11 +73,14 @@ p {
     background-position: center;
 }
 
+/*Section image placement left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+
+/*Section image placement right*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -81,6 +92,7 @@ main {
     margin-left: 20px;
 }
 
+/*Aside styling*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -107,7 +119,8 @@ aside {
     max-width: 150px;
 }
 
-.services {
+/*Section styling*/
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -115,15 +128,16 @@ aside {
     color: #ffffff;
 }
 
-.services img {
+section img {
     max-height: 200px;
 }
 
-.services h2 {
+section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Footer styling*/
 footer {
     padding: 30px;
     clear: both;
